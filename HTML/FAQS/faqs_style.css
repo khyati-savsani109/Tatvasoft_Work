@@ -1,0 +1,308 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.sect{
+	top:0px;
+	left:0px;
+	width:1560px;
+	height:1746px;
+	opacity:1;
+	background-color:#fff;
+}
+
+.div1{
+	top:6px;
+	left:15px;
+	width:1560px;
+	height:70px;
+	opacity:1;
+	background-color:#767778;
+}
+
+.div2{
+	top:64px;
+	left:0px;
+	width:1560px;
+	height:370px;
+	opacity:1;
+	background-image:url('faq-banner.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.div3{
+	top:0px;
+	left:0px;
+	width:1560px;
+	height:1120px;
+	opacity:1;
+	background-color:#fff;
+}
+
+.div4{
+	top:0px;
+	left:0px;
+	width:1560px;
+	height:210px;
+	opacity:1;
+	background-color:black;
+}
+
+.log1 img{
+  float: left;
+  top:10px;
+  left: 17px;
+  width:120px;
+  height:90px;
+  padding-left:115px;
+  padding-top:20px;
+  padding-bottom:83px;
+}
+
+ul{
+  padding-top: 52px;
+  float: right;
+
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 13px;
+  letter-spacing: 0px;
+  font-family:arial;
+  font-size:18px;
+}
+
+.para{
+	font-family:arial;
+	font-size:15px;
+	color:#9BA0A3;
+	padding-left:536px;
+	padding-bottom:22px;
+}
+
+.m1{
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-right:30px;
+}
+
+.m1 img{
+  float: left;
+  top:10px;
+  color:white;
+  padding-left:10px;
+  width:73px;
+  height:57px;
+}
+
+.c1{
+  color: #fff;
+  text-align: center;
+  font-size:16px;
+  font-family: arial;
+  border-radius: 30px;
+  width: 120px;
+  height:40px;
+  border:1px solid #fff;
+  background-color:#29626d;
+}
+
+.none{
+	float:right;
+	display:inline-block;
+    padding-top:4px;	
+}
+
+.c2{
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-family: arial;
+  border-radius: 50px;
+  width: 180px;
+  height:40px;
+  border:1px solid #fff;
+  background-color:#767778;
+}
+
+.c6{
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-family: arial;
+  border-radius: 30px;
+  width: 100px;
+  height:40px;
+  border:1px solid white;
+  background-color:#29626d;
+}
+
+.c7{
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-family: arial;
+  border-radius: 30px;
+  width: 150px;
+  height:40px;
+  border:1px solid white;
+  background-color:#29626d;
+}
+
+.c3{
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-family: arial;
+  border-radius: 30px;
+  width: 90px;
+  height:40px;
+  border:1px solid transparent;
+  background-color:#767778;
+}
+
+.z1{
+	font-family:arial;
+	font-size:30px;
+	font-weight:bold;
+}
+
+.z2:before{
+	content:"";
+	display:block;
+	width:80px;
+	height:2px;
+	background:#9BA0A3;
+	position:absolute;
+	top:523px;
+	left:682px;
+}
+
+.z2:after{
+	content:"";
+	display:block;
+	width:80px;
+	height:2px;
+	background:#9BA0A3;
+	position:absolute;
+	top:523px;
+	left:798px;
+}
+
+.z3{
+	font-family:arial;
+	font-size:18px;
+}
+
+.div_left{
+	background-color:#1c696a;
+	font-family:arial;
+	width:435px;
+	padding:13px;
+	color:#fff;
+	display:inline-block;
+	font-size:25px;
+	text-align:center;
+}
+
+.div_right{
+	background-color:#f9f9f9;
+	font-family:arial;
+	width:435px;
+	padding:13px;
+	color:black;
+	display:inline-block;
+	font-size:25px;
+	text-align:center;
+}
+
+.line{
+	height:2px;
+	background-color:#1c696a; 
+	width:923px;
+}
+
+.z4{
+	font-size:15px;
+	font-weight:700;
+	font-family:arial;
+}
+
+.z4 img{
+	width:19px;
+	height:15px;
+}
+
+.z5{
+	font-family:arial;
+	font-size:15px;
+	letter-spacing:0.4px;
+	line-height:23px;
+	border:1px solid transparent;
+	text-align:left;
+	padding-left:350px;
+}
+
+.z6{
+	font-size:15px;
+	font-weight:700;
+	font-family:arial;
+	line-height:50px;
+	border:1px solid transparent;
+	text-align:left;
+	padding-left:220px;
+}
+
+.z6 img{
+	width:19px;
+	height:15px;
+}
+
+.z7{
+	font-family:arial;
+	color:black;
+	font-size:19px;
+	font-weight:500;
+	line-height:35px;
+}
+
+.d1{
+  color: black;
+  text-align: left;
+  font-size: 17px;
+  text-decoration:none;
+  font-family: arial;
+  border-radius: 30px;
+  width: 290px;
+  border:1px solid black;
+  background-color: #f9f9f9;
+  padding:8px; 
+  height:45px;   
+}
+
+.d2{
+  color: black;
+  text-align: center;
+  font-size: 17px;
+  border:1px solid #fff;
+  font-family: arial;
+  color: #fff;
+  width:100px;
+  text-decoration:none;
+  border-radius: 30px;
+  background-color: #ff8533;
+  padding:8px;
+  height:45px;
+}
+
+@media screen and(min-width:360px) and(max-width:1360px){
+	#sidebar(displaynone)
+}
