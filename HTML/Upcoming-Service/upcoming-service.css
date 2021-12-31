@@ -1,0 +1,188 @@
+.navbar{
+	background-color:#767778;
+}
+
+.logo_1{
+  padding-left: 2px;
+  padding-top:3px;
+  margin-right:30px;
+}
+
+.logo_1 img{
+  float: left;
+  top:3px;
+  color:white;
+  padding-left:10px;
+  width:67px;
+  height:47px;
+}
+
+.navbar ul{
+	list-style:none;
+	margin:0;
+	}	
+
+.navbar ul li{
+	display:inline-block;
+	font-family:arial;
+	font-size:15px;
+}	
+
+.navbar ul li a{
+	color:white;
+	padding:10px;
+}	
+
+.img1{
+	width:25px;
+	height:25px;
+	float:left;
+}	
+
+.arr{
+	height:5px;
+}	
+
+.cont1{
+	background-color:#f9f9f9;
+	height:100px;
+	border:1px solid lightgray; 
+}	
+
+h3{
+	font-family:arial;
+	text-align:center;
+	padding:32px;
+}	
+
+.v{
+	height:40px;
+	border-left:1px solid white; 	
+	padding:3px;
+}	
+
+.dash{
+	width:250px;
+	font-family:arial;
+	font-size:14px;
+	color:white;
+	float:left;
+	padding-right:20px;
+	text-align:left;
+}	
+
+.one{
+	background-color:#009999;
+	padding:8px;
+	border-bottom:1px solid lightgray;
+}	
+
+.one_1{
+	background-color:#29626d;
+	padding:8px;
+	border-bottom:1px solid lightgray;
+}	
+
+.one_3{
+	background-color:#009999;
+	border-bottom:1px solid lightgray;
+	padding:8px;
+	height:390px;
+}	
+
+.one_2{
+	background-color:#009999;
+	padding:8px;
+	border-bottom:1px solid lightgray;
+}	
+
+sup{
+	border-radius:60px;
+	background-color:red;
+	color:white;
+	font-size:10px;
+	padding:8px;
+	float:left;
+}	
+
+.tab{
+	float:right;
+	
+}
+
+button{
+	text-align: center;
+    font-size: 17px;
+	border:1px solid #fff;
+	font-family: arial;
+	color: #fff;
+	width:80px;
+	text-decoration:none;
+	border-radius: 40px;
+	background-color: #ff8533;
+	padding:6px;
+	height:35px;
+} 
+
+thead{
+	font-weight:bold;
+	font-family:arial;
+	font-size:14px;
+	background-color:#f9f9f9;
+	border:1px solid lightgray;
+}	
+
+tr{
+	border:1px solid lightgray;
+}	
+
+.footer{
+	background-color:black;
+	}
+	
+.logo_2{
+  padding-top: 10px;
+ }
+
+.logo_2 img{
+  float: left;
+  top:10px;
+  color:white;
+  padding-left:50px;
+  width:120px;
+  height:57px;
+}
+
+.footer ul{
+	list-style:none;
+	margin:0;
+	text-align:center;
+	}	
+
+.footer ul li{
+	padding-top:10px;
+	display:inline-block;
+	font-family:arial;
+	font-size:15px;
+}	
+
+.footer ul li a{
+	color:white;
+	padding:10px;
+}	
+
+.par_3{
+	font-family:arial;
+	font-size:15px;
+	color:#9BA0A3;
+	text-align:center;
+	padding-bottom:22px;
+}
+
+th,td{
+	padding:8px 15px;
+}	
+
+.cont_2{
+	padding:50px;
+}	
