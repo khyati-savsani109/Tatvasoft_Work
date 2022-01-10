@@ -219,6 +219,12 @@ h6{
 	padding:10px;
 }	
 
+.service_1 table{
+	border-left:1px solid lightgray;
+	border-right:1px solid lightgray;
+	border-bottom:1px solid lightgray;
+}
+
 .bb1{
 	height:30px;
 	border-radius:100px;
