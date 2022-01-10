@@ -213,6 +213,12 @@ h6{
 	padding:3px;
 }
 
+.m1{
+	border-left:1px solid white;
+	border-right:1px solid white;
+	padding:10px;
+}	
+
 .bb1{
 	height:30px;
 	border-radius:100px;
@@ -234,6 +240,7 @@ h6{
 	background-color:white;
 	font-family:arial;
 	font-size:12px;
+	transform:scaleX(-1);
 	padding:2px;
 }	
 
@@ -384,11 +391,14 @@ thead img{
 	font-size:15px;
 }	
 
-
 	
 .p1{
 	font-family:arial;
 	color:gray;
+}	
+
+.ir{
+	display:none;
 }	
 
 @media(max-width:991px){
@@ -398,7 +408,32 @@ thead img{
 	.v1,.v2,.active{
 		visibility:hidden;
 	}
-		
+	.ir{
+		display:block;
+	}
+	.service_1 th{
+		display:none;
+	}
+	.service_1 td{
+		display:block;
+		margin-left:20px;
+		margin-right:20px;
+	}
+	.service_1 tr{
+		box-shadow:0 0 6px rgba(0 0 0/25%);
+	}	
+	.service_1 tbody tr{
+		margin-bottom:35px;
+	}
+	.service_1 tbody td{
+		padding:15px 0 !important;
+		display:block;
+	}	
+	.service_1{
+		width:100%;
+		padding:0;
+		margin:0;
+	}	
 	.header .nav{
 		position:absolute;
 		right:0;
@@ -436,6 +471,11 @@ thead img{
 		
 }	
 
+@media only screen and (max-width:1199px){
+	.service{
+		display:none;
+	}
+}	
 	
 .cont_3{
 	max-width:1560px;
