@@ -1,0 +1,206 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="service_request.css">
+</head>
+
+<body>
+			<div class="header">
+					<label>helperland</label>
+			
+						<ul>
+							<li><a href=""><img src="admin-user.png">&nbsp; James Smith</a></li>
+							<li><a href=""><img src="logout.png"></a></li>
+						</ul>
+			</div>
+				
+				<div class="sidebar">
+					<ul class="menu">
+						
+						<li><a href="">Service Management</a></li>
+						
+						<li><a href="">Role Management</a></li>
+						
+						<li class="op1">
+							<a href="">Coupon Code Management <img class="op" src="forma-1_3.png"></a>
+								<ul>
+									<li><a href="">Coupon Codes</a></li>
+									<li><a href="">Usage History</a></li>
+								</ul>
+						</li>
+						
+						<li><a href="">Escalation Management</a></li>
+						
+						<li><a href=""><font color="#00ccff">Service Requests</font></a></li>
+						
+						<li><a href="">Service Providers</a></li>
+						
+						<li><a href="">User Management</a></li>
+						
+						<li class="op1">
+							<a href="">Finance Module <img class="op" src="forma-1_3.png"></a>
+								<ul>
+									<li><a href="">All Transactions</a></li>
+									<li><a href="">Generate Payment</a></li>
+									<li><a href="">Customer Invoices</a></li>
+								</ul>
+						</li>
+						
+						<li><a href="">Zip Code Management</a></li>
+						
+						<li><a href="">Rating Management</a></li>
+						
+						<li><a href="">Inquiry Management</a></li>
+						
+						<li><a href="">Newsletter Management</a></li>
+						
+						<li class="op1">
+							<a href="">Content Management <img class="op" src="forma-1_3.png"></a>
+								<ul>
+									<li><a href="">Blog</a></li>
+									<li><a href="">FAQs</a></li>
+								</ul>
+						
+						</li>
+					</ul>
+				</div>
+			
+			<div class="main">
+				<div class="container py-3">
+					<h4>Service Requests</h4>
+										
+					<div class="row py-3">
+						<p class="pa2">Service ID</p>&nbsp;&nbsp;
+						<select id="sub"><option>Customer</option></select>&nbsp;&nbsp;
+						<select id="sub1"><option>Service Provider</option></select>&nbsp;&nbsp;
+						<select id="sub"><option>Status</option></select>&nbsp;&nbsp; 
+						<p class="pa2"><img src="admin-calendar-blue.png">&nbsp; From Date</p>&nbsp;&nbsp;
+						<p class="pa2"><img src="admin-calendar-blue.png">&nbsp; To Date</p>&nbsp;&nbsp;
+						<button class="btn1">Search</button>&nbsp;&nbsp; 
+						<button class="btn2">Clear</button>
+					</div>
+					
+					<div class="table-responsive py-3">
+								<table class="table table-md border-collapse:collapse">
+									<thead>
+										<tr>
+											<th>Service ID <img src="sort.png"></th>
+											<th>Service date <img src="sort.png"></th>
+											<th>Customer details <img src="sort.png"></th>
+											<th>Service provider <img src="sort.png"></th>
+											<th>Status <img src="sort.png"></th>
+											<th>Actions</th>
+										</tr>
+									</thead>
+									
+									<tbody>
+										<tr>
+											<td>323436</td>
+											<td><img src="calendar2.png"> <b>09/04/2018</b><br><img src="layer-14.png"> 12:00-18:00</td>
+											<td>David Bough<br><img src="layer-15.png"> Musterstrabe 5,12345 Bonn</td>
+											<td></td>
+											<td><button class="but1">New</button></td>
+											<td><img class="op3" src="group-38.png"></td>
+										</tr>
+										
+										<tr>
+											<td>323436</td>
+											<td><img src="calendar2.png"> <b>09/04/2018</b><br><img src="layer-14.png"> 12:00-18:00</td>
+											<td>David Bough<br><img src="layer-15.png"> Musterstrabe 5,12345 Bonn</td>
+											<td></td>
+											<td><button class="but1">New</button></td>
+											<td><img class="op3" src="group-38.png"></td>
+										</tr>
+										
+										<tr>
+											<td>323436</td>
+											<td><img src="calendar2.png"> <b>09/04/2018</b><br><img src="layer-14.png"> 12:00-18:00</td>
+											<td>David Bough<br><img src="layer-15.png"> Musterstrabe 5,12345 Bonn</td>
+											<td><div class="divl2"><p class="pa1"><img class="capp" src="cap.png"><p class="pa" >Lyum Watson<br><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="grey-small-star.png"> 4 </p></div></td>
+											<td><button class="but3">Pending</button></td>
+											<td><img class="op3" src="group-38.png"></td>
+										</tr>
+										
+										<tr>
+											<td>323436</td>
+											<td><img src="calendar2.png"> <b>09/04/2018</b><br><img src="layer-14.png"> 12:00-18:00</td>
+											<td>David Bough<br><img src="layer-15.png"> Musterstrabe 5,12345 Bonn</td>
+											<td><div class="divl2"><p class="pa1"><img class="capp" src="cap.png"><p class="pa" >Lyum Watson<br><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="grey-small-star.png"> 4 </p></div></td>
+											<td><button class="but3">Pending</button></td>
+											<td><img class="op3" src="group-38.png"></td>
+										</tr>
+										
+										<tr>
+											<td>323436</td>
+											<td><img src="calendar2.png"> <b>09/04/2018</b><br><img src="layer-14.png"> 12:00-18:00</td>
+											<td>David Bough<br><img src="layer-15.png"> Musterstrabe 5,12345 Bonn</td>
+											<td><div class="divl2"><p class="pa1"><img class="capp" src="cap.png"><p class="pa" >Lyum Watson<br><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="grey-small-star.png"> 4 </p></div></td>
+											<td><button class="but2">Completed</button></td>
+											<td><img class="op3" src="group-38.png"></td>
+										</tr>
+										
+										<tr>
+											<td>323436</td>
+											<td><img src="calendar2.png"> <b>09/04/2018</b><br><img src="layer-14.png"> 12:00-18:00</td>
+											<td>David Bough<br><img src="layer-15.png"> Musterstrabe 5,12345 Bonn</td>
+											<td><div class="divl2"><p class="pa1"><img class="capp" src="cap.png"><p class="pa" >Lyum Watson<br><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="grey-small-star.png"> 4 </p></div></td>
+											<td><button class="but2">Completed</button></td>
+											<td><img class="op3" src="group-38.png"></td>
+										</tr>
+										
+										<tr>
+											<td>323436</td>
+											<td><img src="calendar2.png"> <b>09/04/2018</b><br><img src="layer-14.png"> 12:00-18:00</td>
+											<td>David Bough<br><img src="layer-15.png"> Musterstrabe 5,12345 Bonn</td>
+											<td><div class="divl2"><p class="pa1"><img class="capp" src="cap.png"><p class="pa" >Lyum Watson<br><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="grey-small-star.png"> 4 </p></div></td>
+											<td><button class="but4">Cancelled</button></td>
+											<td><img class="op3" src="group-38.png"></td>
+										</tr>
+										
+										<tr>
+											<td>323436</td>
+											<td><img src="calendar2.png"> <b>09/04/2018</b><br><img src="layer-14.png"> 12:00-18:00</td>
+											<td>David Bough<br><img src="layer-15.png"> Musterstrabe 5,12345 Bonn</td>
+											<td><div class="divl2"><p class="pa1"><img class="capp" src="cap.png"><p class="pa" >Lyum Watson<br><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="grey-small-star.png"> 4 </p></div></td>
+											<td><button class="but2">Completed</button></td>
+											<td><img class="op3" src="group-38.png"></td>
+										</tr>
+										
+										<tr>
+											<td>323436</td>
+											<td><img src="calendar2.png"> <b>09/04/2018</b><br><img src="layer-14.png"> 12:00-18:00</td>
+											<td>David Bough<br><img src="layer-15.png"> Musterstrabe 5,12345 Bonn</td>
+											<td><div class="divl2"><p class="pa1"><img class="capp" src="cap.png"><p class="pa" >Lyum Watson<br><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="grey-small-star.png"> 4 </p></div></td>
+											<td><button class="but4">Cancelled</button></td>
+											<td><img class="op3" src="group-38.png"></td>
+										</tr>
+										
+										<tr>
+											<td>323436</td>
+											<td><img src="calendar2.png"> <b>09/04/2018</b><br><img src="layer-14.png"> 12:00-18:00</td>
+											<td>David Bough<br><img src="layer-15.png"> Musterstrabe 5,12345 Bonn</td>
+											<td><div class="divl2"><p class="pa1"><img class="capp" src="cap.png"><p class="pa" >Lyum Watson<br><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="star1.png"><img class="capp1" src="grey-small-star.png"> 4 </p></div></td>
+											<td><button class="but2">Completed</button></td>
+											<td><img class="op3" src="group-38.png"></td>
+										</tr>
+									</tbody>
+								</table>
+					</div>
+					<div class="container">
+						<div class="row row_1">
+						<p class="pa3">Show <select id="sub3"><option>10</option></select> Entries</p>
+						
+						<p class="pa4"><button class="bb1"><img src="polygon-1-copy-5.png"></button><button class="bb2">1</button><button class="bb3">2</button><button class="bb3">3</button><button class="bb3">4</button><button class="bb3">5</button><button class="bb4"><img src="polygon-1-copy-5.png"></button></p>
+						</div>
+					</div>	
+						<div class="d1">&copy;2018 Helperland. All rights reserved.</div><br>
+						
+				</div>
+			</div>
+		
+
+</body>
+
+</html>	
