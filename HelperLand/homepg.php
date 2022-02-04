@@ -1,3 +1,5 @@
+
+
 <html>
 
 <head>
@@ -232,18 +234,18 @@
 					</div>
 
 					<div class="modal-body">
-						<form>
+						<form action="view/login-process.php" method="post" autocomplete="off">
 							<div class="form-group">
-								<input type="text" placeholder="E-mail address" class="form-control">
+								<input type="text" name="Email" placeholder="E-mail address" class="form-control" required>
 								<br>
-								<input type="password" placeholder="Password" class="form-control">
+								<input type="password" name="Password" placeholder="Password" class="form-control" required>
 								<br>
 								<input type="checkbox"> Remember me
 								<br>
 								<br>
-								<center><input type="login" value="Login" class="subbut" data-dismiss="modal"></center>
+								<center><input type="submit" name="Login" value="Login" class="subbut"></center>
 								<br>
-								<center><font color="#009999">Forgot password?</font>
+								<center><a data-target="#mymodel-2" data-toggle="modal" data-dismiss="modal" href=""><font color="#009999">Forgot password?</font></a>
 								<br>
 								Don't have an account? <a href="http://localhost/HelperLand/View/create-account.php"><font color="#009999">Create an account</font></a></center>
 							</div>
@@ -253,14 +255,38 @@
 			</div>
 		</div>
 
+
 		<div class="container">
-		<div class="modal fade" id="mymodel-1">
-			<div class="modal-dialog modal-dialog-centered">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h3 class="text-center text-gray">Register Now!</h3>
-						<button type="button" class="close" data-dismiss="modal"> &times; </button>
+			<div class="modal fade" id="mymodel-2">
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h3 class="text-center text-gray">Forgot Password</h3>
+							<button type="button" class="close" data-dismiss="modal"> &times; </button>
+						</div>
+
+						<div class="modal-body">
+							<form action="view/forgot-password.php" method="post" autocomplete="off">
+								<div class="form-group">
+									<label>Email Address</label>
+									<input type="text" name="Email" placeholder="E-mail address" class="form-control">
+									<br>
+									<label>New Password</label>
+									<input type="password" name="Password" placeholder="Password" class="form-control">
+									<br>
+									<center><input type="submit" name="Save" value="Save" class="subbut"></center>
+									<br>
+									<center><a data-target="#mymodel" data-toggle="modal" data-dismiss="modal" href=""><font color="#009999">Login now</font></a>
+
+								</div>
+							</form>
+						</div>
 					</div>
+				</div>
+			</div>
+
+
+
 </body>
 
 </html>
