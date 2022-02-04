@@ -241,6 +241,7 @@ h4{
 		transform:rotate(-45deg);
 	}
 }
+
 .cont1{
 	max-width:1560px;
 }
@@ -358,7 +359,6 @@ h5{
 		margin:0;
 		padding-left:0;
 	}
-
 }
 
 @media(max-width:400px){
