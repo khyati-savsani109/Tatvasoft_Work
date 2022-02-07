@@ -19,7 +19,7 @@
 					<nav class="nav">
 					<ul>
 						<li><a class="active" href="">Book now</a></li>
-						<li><a class="active1" href="">Prices & services</a></li>
+						<li><a class="active1" href="http://localhost/HelperLand/View/prices.php">Prices & services</a></li>
 						<li><a class="active2" href="">Warranty</a></li>
 						<li><a class="active2" href="">Blog</a></li>
 						<li><a class="active2" href="http://localhost/HelperLand/View/contact-us.php">Contact</a></li>
