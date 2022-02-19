@@ -63,7 +63,7 @@ if(!$result){
 								<div class="col-lg-6">
 									<div class="input-group-prepend">
 										<div class="input-group-text">+49</div>
-									<input type="text" name="number" id="mobile" placeholder="Mobile number" class="form-control" required>
+									<input type="text" minlength="10" maxlength="10" name="number" id="mobile" placeholder="Mobile number" class="form-control" required>
 									</div>
                   <span id="msg" style="color:red;"></span>
 								</div>
