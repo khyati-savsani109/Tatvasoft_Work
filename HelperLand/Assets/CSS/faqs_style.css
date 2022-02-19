@@ -1,3 +1,13 @@
+body{
+	font-family:roboto;
+}
+
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
 .conta1{
 	max-width:1560px;
 }
@@ -9,15 +19,6 @@
 	justify-content:center;
 }
 
-body{
-	font-family:arial;
-}
-
-*{
-	box-sizing:border-box;
-	margin:0;
-	padding:0;
-}
 
 a{
 	text-decoration:none;
@@ -175,6 +176,42 @@ ul li a.active3{
 	max-width:1560px;
 }
 
+.btn{
+	width: 500px;
+	font-size: 20px;
+	word-spacing: 5px;
+}
+.card{
+	border:none;
+}
+.accordion .btn{
+	background: #1d7a8c;
+	color: #fff ;
+	border-bottom: 4px solid #1d7a8c;
+}
+
+.accordion .btn.collapsed{
+	background: #f6f6f6;
+	color: #646464 ;
+}
+
+.text1{
+	font-size: 20px;
+	line-height: 40px;
+	text-decoration: none;
+	color:#646464;
+	font-weight: 550;
+}
+.card-body a:hover{
+	text-decoration: none;
+	color: #646464;
+}
+
+.text2{
+	font-size: 18px;
+	padding-left: 30px;
+	color:#646464;
+}
 
 @media(max-width:991px){
 	.nav-toggler{
@@ -192,6 +229,7 @@ ul li a.active3{
 	}
 	.header .nav ul li{
 		display:block;
+		padding: 6px;
 		margin:0;
 	}
 	.header #nav-check:checked ~ .nav{
@@ -212,6 +250,21 @@ ul li a.active3{
 		top:0;
 		transform:rotate(-45deg);
 	}
+
+	.btn{
+		width: 250px;
+	}
+	.text1{
+		font-size: 16px;
+		line-height: 30px;
+		text-align: justify;
+	}
+	.text2{
+		font-size: 14px;
+		padding: 0;
+		left: 0;
+	}
+
 }
 
 
@@ -289,29 +342,6 @@ ul li a{
 	max-width:1560px;
 }
 
-.b1{
-	width:500px;
-	text-align:center;
-	font-family:arial;
-	font-size:18px;
-	color:white;
-	padding:8px;
-	background-color:#009999;
-	border:0;
-	border-bottom:2px solid #009999;
-}
-
-.b2{
-	width:500px;
-	text-align:center;
-	font-family:arial;
-	font-size:18px;
-	color:black;
-	padding:8px;
-	background-color:#f9f9f9;
-	border:0;
-	border-bottom:2px solid #009999;
-}
 
 
 @media(max-width:991px){
@@ -342,20 +372,10 @@ ul li a{
 		padding-left:0;
 	}
 
-	.b1,.b2{
-		width:100%;
-		margin:0;
-		padding-left:0;
-	}
 	.para-1{
 		font-size: 15px;
 	}
-	.para-2{
-		font-size: 11px;
-	}
-	.para-3{
-		font-size: 11px;
-	}
+
 }
 
 h6{
@@ -379,31 +399,10 @@ h2{
 	letter-spacing:0.4px;
 }
 
-.para-2{
-	text-align:center;
-	font-weight:bold;
-	font-family:arial;
-	font-size:15px;
-	word-spacing:1px;
-	letter-spacing:0.4px;
-}
 
-.para-2 img{
-	width:16px;
-	height:16px;
-}
-
-.para-3{
-	max-width:930px;
-	word-spacing:2px;
-	letter-spacing:0.4px;
-	font-family:arial;
-	font-size:15px;
-	text-align: justify;
-	}
-
-@media(max-width:400px){
+	@media(max-width:768px){
 		.img-fluid{
 			display: none;
 		}
+
 	}
