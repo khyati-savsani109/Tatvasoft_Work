@@ -330,9 +330,10 @@ ul li a{
 		height: 35px;
 		padding-left:0;
 	}
+
 }
 
-@media(max-width:400px){
+@media(max-width:768px){
 	.img-fluid{
 		display: none;
 	}
