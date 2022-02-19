@@ -1,5 +1,3 @@
-
-
 <html>
 
 <head>
@@ -27,7 +25,7 @@
 						<ul>
 							<li><a href="">Book a Cleaner</a></li>
 							<li><a href="http://localhost/HelperLand/View/prices.php">Prices</a></li>
-							<li><a href="">Our guarantee</a></li>
+							<li><a href="http://localhost/helperland/view/our-guarantee.php">Our guarantee</a></li>
 							<li><a href="">Blog</a></li>
 							<li><a href="http://localhost/HelperLand/View/contact-us.php">Contact us</a></li>
 							<li><a data-target="#mymodel" data-toggle="modal" href="">Login</a></li>
@@ -209,8 +207,8 @@
 						  <li><a href="http://localhost/helperland/View/about.php">ABOUT</a></li>
 						  <li><a href="">TESTIMONIALS</a></li>
 						  <li><a href="http://localhost/HelperLand/View/faqs.php">FAQS</a></li>
-						  <li><a href="">INSURANCE POLICY</a></li>
-						  <li><a href="">IMPRESSUM</a></li>
+						  <li><a href="http://localhost/helperland/view/insurance-policy.php">INSURANCE COVERAGE</a></li>
+						  <li><a href="http://localhost/helperland/view/impressum.php">IMPRESSUM</a></li>
 						</ul>
 					</div>
 
