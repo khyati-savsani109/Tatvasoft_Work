@@ -44,8 +44,8 @@ if(!$result){
 					</label>
 					<nav class="nav">
 					<ul>
-						<li><a class="active" href="">Book now</a></li>
-						<li><a class="active1" href="">Prices & services</a></li>
+						<li><a class="active" href="http://localhost/helperland/View/book-now.php">Book now</a></li>
+						<li><a class="active1" href="http://localhost/helperland/View/prices.php">Prices & services</a></li>
 						<li><a class="active2" href="">Warranty</a></li>
 						<li><a class="active2" href="">Blog</a></li>
 						<li><a class="active2" href="">Contact</a></li>
@@ -162,8 +162,8 @@ if(!$result){
 					  <li><a href="http://localhost/helperland/View/about.php">ABOUT</a></li>
 					  <li><a href="">TESTIMONIALS</a></li>
 					  <li><a href="http://localhost/HelperLand/View/faqs.php">FAQS</a></li>
-					  <li><a href="">INSURANCE POLICY</a></li>
-					  <li><a href="">IMPRESSUM</a></li>
+            <li><a href="http://localhost/helperland/view/insurance-policy.php">INSURANCE COVERAGE</a></li>
+            <li><a href="http://localhost/helperland/view/impressum.php">IMPRESSUM</a></li>
 					</ul>
 				</div>
 
