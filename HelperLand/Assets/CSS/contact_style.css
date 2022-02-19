@@ -361,7 +361,7 @@ h5{
 	}
 }
 
-@media(max-width:400px){
+@media(max-width:768px){
 	.img-fluid{
 		display: none;
 	}
