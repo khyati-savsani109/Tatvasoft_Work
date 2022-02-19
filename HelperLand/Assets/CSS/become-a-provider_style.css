@@ -8,7 +8,6 @@ body{
 	font-family:roboto;
 }
 
-
 .conta1{
 	max-width:1560px;
 	background-position:center;
@@ -348,7 +347,6 @@ ul li a{
 		padding-top:20px;
 		text-align:center;
 		top:100%;
-
 	}
 	hr{
 		visibility:hidden;
