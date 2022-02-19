@@ -121,8 +121,8 @@ if(!$result){
 					  <li><a href="http://localhost/helperland/View/about.php">ABOUT</a></li>
 					  <li><a href="">TESTIMONIALS</a></li>
 					  <li><a href="http://localhost/helperland/View/faqs.php">FAQS</a></li>
-					  <li><a href="">INSURANCE POLICY</a></li>
-					  <li><a href="">IMPRESSUM</a></li>
+            <li><a href="http://localhost/helperland/view/insurance-policy.php">INSURANCE COVERAGE</a></li>
+            <li><a href="http://localhost/helperland/view/impressum.php">IMPRESSUM</a></li>
 					</ul>
 				</div>
 
