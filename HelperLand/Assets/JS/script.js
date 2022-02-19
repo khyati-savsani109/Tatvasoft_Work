@@ -63,3 +63,80 @@ function validation(){
 
 
 }
+
+
+function show1(){
+  document.getElementById("tab1").style.backgroundColor="#1d7a8c";
+  document.getElementById("tab1").style.color="#fff";
+  document.getElementById("tab-img1").src="../assets/images/setup-service-white.png";
+  document.getElementById("tab2").style.backgroundColor="#f3f3f3";
+  document.getElementById("tab2").style.color="#4f4f4f";
+  document.getElementById("tab-img2").src="../assets/images/schedule.png";
+  document.getElementById("tab3").style.backgroundColor="#f3f3f3";
+  document.getElementById("tab3").style.color="#4f4f4f";
+  document.getElementById("tab-img3").src="../assets/images/details.png";
+  document.getElementById("tab4").style.backgroundColor="#f3f3f3";
+  document.getElementById("tab4").style.color="#4f4f4f";
+  document.getElementById("tab-img4").src="../assets/images/payment.png";
+  document.getElementById("body1").style.display="block";
+  document.getElementById("body2").style.display="none";
+  document.getElementById("body3").style.display="none";
+  document.getElementById("body4").style.display="none";
+}
+
+function show2(){
+  document.getElementById("tab1").style.backgroundColor="#f3f3f3";
+  document.getElementById("tab1").style.color="#4f4f4f";
+  document.getElementById("tab-img1").src="../assets/images/setup-service.png";
+  document.getElementById("tab2").style.backgroundColor="#1d7a8c";
+  document.getElementById("tab2").style.color="#fff";
+  document.getElementById("tab-img2").src="../assets/images/schedule-white.png";
+  document.getElementById("tab3").style.backgroundColor="#f3f3f3";
+  document.getElementById("tab3").style.color="#4f4f4f";
+  document.getElementById("tab-img3").src="../assets/images/details.png";
+  document.getElementById("tab4").style.backgroundColor="#f3f3f3";
+  document.getElementById("tab4").style.color="#4f4f4f";
+  document.getElementById("tab-img4").src="../assets/images/payment.png";
+  document.getElementById("body1").style.display="none";
+  document.getElementById("body2").style.display="block";
+  document.getElementById("body3").style.display="none";
+  document.getElementById("body4").style.display="none";
+}
+
+function show3(){
+  document.getElementById("tab1").style.backgroundColor="#f3f3f3";
+  document.getElementById("tab1").style.color="#4f4f4f";
+  document.getElementById("tab-img1").src="../assets/images/setup-service.png";
+  document.getElementById("tab2").style.backgroundColor="#f3f3f3";
+  document.getElementById("tab2").style.color="#4f4f4f";
+  document.getElementById("tab-img2").src="../assets/images/schedule.png";
+  document.getElementById("tab3").style.backgroundColor="#1d7a8c";
+  document.getElementById("tab3").style.color="#fff";
+  document.getElementById("tab-img3").src="../assets/images/details-white.png";
+  document.getElementById("tab4").style.backgroundColor="#f3f3f3";
+  document.getElementById("tab4").style.color="#4f4f4f";
+  document.getElementById("tab-img4").src="../assets/images/payment.png";
+  document.getElementById("body1").style.display="none";
+  document.getElementById("body2").style.display="none";
+  document.getElementById("body3").style.display="block";
+  document.getElementById("body4").style.display="none";
+}
+
+function show4(){
+  document.getElementById("tab1").style.backgroundColor="#f3f3f3";
+  document.getElementById("tab1").style.color="#4f4f4f";
+  document.getElementById("tab-img1").src="../assets/images/setup-service.png";
+  document.getElementById("tab2").style.backgroundColor="#f3f3f3";
+  document.getElementById("tab2").style.color="#4f4f4f";
+  document.getElementById("tab-img2").src="../assets/images/schedule.png";
+  document.getElementById("tab3").style.backgroundColor="#f3f3f3";
+  document.getElementById("tab3").style.color="#4f4f4f";
+  document.getElementById("tab-img3").src="../assets/images/details.png";
+  document.getElementById("tab4").style.backgroundColor="#1d7a8c";
+  document.getElementById("tab4").style.color="#fff";
+  document.getElementById("tab-img4").src="../assets/images/payment-white.png";
+  document.getElementById("body1").style.display="none";
+  document.getElementById("body2").style.display="none";
+  document.getElementById("body3").style.display="none";
+  document.getElementById("body4").style.display="block";
+}
