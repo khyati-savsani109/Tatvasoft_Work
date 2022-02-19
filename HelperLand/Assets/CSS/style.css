@@ -8,7 +8,6 @@ body{
 	padding:0;
 }
 
-
 .conta1{
 	max-width:1560px;
 	background-position:center;
@@ -399,7 +398,6 @@ h6{
 		padding:0;
 		margin:0;
 	}
-
 }
 
 .cont_3{
@@ -448,7 +446,6 @@ ul li a{
   background-color: #f9f9f9;
   padding:8px;
   height:45px;
-
 }
 
 .d2{
@@ -486,7 +483,6 @@ ul li a{
 		padding-top:20px;
 		text-align:center;
 		top:100%;
-
 	}
 	hr{
 		visibility:hidden;
