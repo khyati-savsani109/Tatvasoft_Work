@@ -27,7 +27,7 @@ if(isset($_POST['Login']));
     $_SESSION['Email']=$n;
 
     echo "<script type='text/javascript'>
-              document.location='http://localhost/HelperLand/homepg.php'</script>";
+              document.location='http://localhost/HelperLand/view/customer-page.php'</script>";
   }
 }
 

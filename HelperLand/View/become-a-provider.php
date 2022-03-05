@@ -4,23 +4,37 @@ session_start();
 
 include( "../model/db_connection.php");
 
+?>
+
+<?php
+
 if(isset($_POST['submit']));{
   @$firstname = $_POST['fname'];
   @$lastname = $_POST['lname'];
   @$email = $_POST['email'];
   @$password = $_POST['pass'];
   @$mobileno = $_POST['number'];
+
+
+  $qry2 = mysqli_query($conn,"SELECT * FROM user WHERE Email = '$email'");
+  if(mysqli_num_rows($qry2)>0){
+    echo "Email Already Exists..";
+  }
+
+else{
+
+  $qry = "INSERT INTO user(Firstname,Lastname,Email,Password,Mobile) VALUES('$firstname','$lastname','$email','$password','$mobileno')";
+
+  $result = mysqli_query($conn,$qry);
+
+    if(!$result){
+      echo "data not inserted";
+    }
+  }
 }
+ ?>
 
-$qry = "INSERT INTO user(Firstname,Lastname,Email,Password,Mobile) VALUES('$firstname','$lastname','$email','$password','$mobileno')";
-
-$result = mysqli_query($conn,$qry);
-
-if(!$result){
-  echo "data not inserted";
-}
-
- ?><html>
+ <html>
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -47,7 +61,7 @@ if(!$result){
 						<ul>
 							<li><a href="">Book a Cleaner</a></li>
 							<li><a href="http://localhost/HelperLand/View/prices.php">Prices</a></li>
-							<li><a href="">Our guarantee</a></li>
+							<li><a href="http://localhost/HelperLand/View/our-guarantee.php">Our guarantee</a></li>
 							<li><a href="">Blog</a></li>
 							<li><a href="http://localhost/HelperLand/View/contact-us.php">Contact us</a></li>
 							<li><a href="">Login</a></li>
@@ -157,7 +171,7 @@ if(!$result){
 								<br>
 								<div class="input-group-prepend">
 									<div class="input-group-text">+46</div>
-									<input type="number" name="number" id="mobile" placeholder="Phone Number" class="form-control" required>
+									<input type="number" name="number" maxlength="10" id="mobile" placeholder="Phone Number" class="form-control" required>
 								</div>
                 <span id="msg" style="color:red;"></span>
 								<br>

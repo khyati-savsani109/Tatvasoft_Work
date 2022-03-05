@@ -21,7 +21,7 @@
 					</label>
 					<nav class="nav">
 					<ul>
-						<li><a class="active" href="http://localhost/helperland/View/book-now.php">Book now</a></li>
+						<li><a class="active" href="http://localhost/Helperland/View/book-now.php">Book now</a></li>
 						<li><a class="active1" href="http://localhost/HelperLand/View/prices.php">Prices & services</a></li>
 						<li><a class="active2" href="">Warranty</a></li>
 						<li><a class="active2" href="">Blog</a></li>
@@ -46,7 +46,7 @@
 
 				 <div class="container">
 					 <div class="row justify-content-center mt-5">
-
+						 <div class="div7">
 						 <div class="accordion d-md-flex" id="accorex">
 
 							 <div class="card">
@@ -128,7 +128,7 @@
 							</div>
 				    	</div>
 			     </div>
-
+				 </div>
 		    </div>
 
 	    </div>

@@ -4,6 +4,10 @@ session_start();
 
 include( "../model/db_connection.php");
 
+?>
+
+<?php
+
 if(isset($_POST['submit']));{
   @$firstname = $_POST['fname'];
   @$lastname = $_POST['lname'];
@@ -11,16 +15,23 @@ if(isset($_POST['submit']));{
   @$subject = $_POST['subject'];
   @$mobileno = $_POST['number'];
   @$message = $_POST['message'];
+
+
+$qry2 = mysqli_query($conn,"SELECT * FROM contactus WHERE Email = '$email'");
+if(mysqli_num_rows($qry2)>0){
+  echo "Email Already Exists..";
 }
 
-$qry = "INSERT INTO contactus(Firstname,Lastname,Email,Subject,PhoneNumber,Message) VALUES('$firstname','$lastname','$email','$subject','$mobileno','$message')";
+else{
+  $qry = "INSERT INTO contactus(Firstname,Lastname,Email,Subject,PhoneNumber,Message) VALUES('$firstname','$lastname','$email','$subject','$mobileno','$message')";
 
-$result = mysqli_query($conn,$qry);
+  $result = mysqli_query($conn,$qry);
 
-if(!$result){
-  echo "data not inserted";
+    if(!$result){
+      echo "data not inserted";
+    }
+  }
 }
-
  ?>
 
 <html>
@@ -100,7 +111,7 @@ if(!$result){
 								<div class="col-lg-6">
 									<div class="input-group-prepend">
 										<div class="input-group-text mb-4">+49</div>
-									<input type="text" name="number" id="mobile" placeholder="Mobile number" class="form-control mb-4" required>
+									<input type="text" name="number" minlength="10" maxlength="10" id="mobile" placeholder="Mobile number" class="form-control mb-4" required>
 									</div>
                   <span id="msg" style="color:red;"></span>
 								</div>

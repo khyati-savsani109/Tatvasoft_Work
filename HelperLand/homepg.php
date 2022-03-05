@@ -29,9 +29,12 @@
 							<li><a href="">Blog</a></li>
 							<li><a href="http://localhost/HelperLand/View/contact-us.php">Contact us</a></li>
 							<li><a data-target="#mymodel" data-toggle="modal" href="">Login</a></li>
-							<li><a href="">Become a helper</a></li>
+							<li><a href="http://localhost/HelperLand/View/become-a-provider.php">Become a helper</a></li>
 							<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown"><img class="img1" src="assets/images/ic-flag.png">
-                        <div class="dropdown-menu"></div></a></li>
+                        <div class="dropdown-menu">
+													<a href=""><img class="img1" src="assets/images/ic-flag.png"> <font color="black">India</font></a>
+													<a href=""><img class="img1" src="assets/images/ic-flag.png"> <font color="black">USA</font></a>
+												</div></a></li>
 						</ul>
 						</nav>
 					</div>
@@ -222,6 +225,7 @@
 		</div>
 	</div>
 
+
 	<div class="container">
 		<div class="modal fade" id="mymodel">
 			<div class="modal-dialog modal-dialog-centered">
@@ -282,6 +286,7 @@
 					</div>
 				</div>
 			</div>
+		</div>
 
 
 

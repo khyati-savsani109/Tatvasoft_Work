@@ -4,13 +4,24 @@ session_start();
 
 include( "../model/db_connection.php");
 
+?>
+
+<?php
+
 if(isset($_POST['register']));{
   @$firstname = $_POST['fname'];
   @$lastname = $_POST['lname'];
   @$email = $_POST['email'];
   @$password = $_POST['pass'];
   @$mobileno = $_POST['number'];
-}
+
+
+  $qry2 = mysqli_query($conn,"SELECT * FROM user WHERE Email = '$email'");
+  if(mysqli_num_rows($qry2)>0){
+    echo "Email Already Exists..";
+  }
+
+else{
 
 $qry = "INSERT INTO user(Firstname,Lastname,Email,Password,Mobile) VALUES('$firstname','$lastname','$email','$password','$mobileno')";
 
@@ -18,6 +29,8 @@ $result = mysqli_query($conn,$qry);
 
 if(!$result){
   echo "data not inserted";
+}
+}
 }
 
  ?>

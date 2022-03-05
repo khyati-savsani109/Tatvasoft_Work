@@ -10,6 +10,7 @@ body{
 }
 .conta1{
 	max-width:1560px;
+	overflow-x: hidden;
 }
 
 .img-fluid{
@@ -119,11 +120,17 @@ ul{
 	top:6px;
 }
 
+ul li a.active:hover,ul li a.active3:hover,ul li a.active1:hover{
+	background: #fff;
+	color: #111;
+	text-decoration: none;
+}
+
 ul li a.active{
   color: #fff;
   text-align: center;
   font-size:16px;
-  font-family: arial;
+  text-decoration: none;
   border-radius: 30px;
   width: 90px;
   height:35px;
@@ -135,7 +142,7 @@ ul li a.active1{
   color: #fff;
   text-align: center;
   font-size:16px;
-  font-family: arial;
+  text-decoration: none;
   border-radius: 30px;
   width: 139px;
   height:35px;
@@ -147,7 +154,7 @@ ul li a.active2{
   color: #fff;
   text-align: center;
   font-size:16px;
-  font-family: arial;
+  text-decoration: none;
   width: 69px;
   border:1px solid transparent;
   background-color:#767778;
@@ -157,7 +164,7 @@ ul li a.active3{
   color: #fff;
   text-align: center;
   font-size:16px;
-  font-family: arial;
+  text-decoration: none;
   border-radius: 30px;
   width: 139px;
   height:35px;
@@ -193,6 +200,8 @@ sup{
 	display:none;
 }
 
+
+
 .card{
 	border: none;
 	box-shadow:0 15px 15px -8px rgba(0,0,0,0.5);
@@ -203,6 +212,11 @@ sup{
 	color: #fff;
 	font-size: 19px;
 	text-align: left;
+}
+
+#entry{
+		padding-left: 15px;
+		padding-right: 15px;
 }
 
 .d1{
@@ -247,17 +261,18 @@ sup{
 	float: left;
 }
 
-.r1{
+.ll1{
 	float: right;
 }
 
 .l2{
 	float: left;
+	padding-top: 5px;
 	color: #009999;
 	font-size: 18px;
 }
 
-.r2{
+.ll2{
 	font-size: 30px;
 	float: right;
 	font-weight: bold;
@@ -352,8 +367,11 @@ h6{
 #body2,#body3,#body4{
 	display: none;
 }
-
+button:focus{
+    outline: none !important;
+}
 .but1{
+	cursor: pointer;
 	line-height: 35px;
 	font-size: 18px;
 	width: 180px;
@@ -364,6 +382,7 @@ h6{
 }
 
 .but2{
+	cursor: pointer;
 	line-height: 35px;
 	font-size: 18px;
 	width: 180px;
@@ -372,6 +391,7 @@ h6{
 }
 
 .but3{
+	cursor: pointer;
 	line-height: 35px;
 	font-size: 18px;
 	width: 180px;
@@ -381,6 +401,7 @@ h6{
 
 
 .but4{
+	cursor: pointer;
 	line-height: 35px;
 	font-size: 18px;
 	width: 180px;
@@ -484,20 +505,9 @@ input[type=radio]{
 	height:40px;
 }
 
-.b1{
-	float:left;
-}
-
-.b2{
-	float:right;
-	padding-right: 30px;
-}
-
-
 #s2{
 	height:35px;
 	width:75px;
-	font-family:arial;
 	border:1px solid lightgray;
 	font-size:12px;
 	color:gray;
@@ -508,13 +518,55 @@ input[type=radio]{
 #s3{
 	height:35px;
 	width:90px;
-	font-family:arial;
 	border:1px solid lightgray;
 	font-size:12px;
 	color:gray;
 	text-align:left;
 	padding:3px;
 }
+
+/* Custome Checkbox CSS */
+.custom-checkboxes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.content{
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 10px;
+}
+
+input[type=checkbox].CustomBox{
+    display: none !important;
+}
+
+.label1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 108px;
+    height: 108px;
+    border: 1px solid #C8C8C8;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0px 15px;
+}
+
+:checked + label {
+    border: 3px solid #1d7a8c;
+}
+
+
+.check-text{
+	text-align: center;
+	font-size: 16px;
+    margin-bottom: 0px !important;
+    padding: 16px 0px;
+}
+
 
 .pa6{
 	font-size:16px;
@@ -523,22 +575,6 @@ input[type=radio]{
 	line-height:20px;
 	text-align:left;
 	color:gray;
-}
-.pa7{
-	text-align:left;
-}
-.pa8{
-	font-size:15px;
-	color:gray;
-	border:1px solid lightgray;
-	padding-top:5px;
-	width:130px;
-	height:35px;
-	text-align:center;
-}
-.pa8 img{
-	width: 16px;
-	height: 14px;
 }
 
 .p1{
@@ -690,6 +726,7 @@ input[type=radio]{
 		left:0;
 		top:100%;
 		width:100%;
+		height: 100vh;
 		background-color:#767778;
 		border-top:1px solid rgba(255,255,255,0.2);
 		opacity:0;
@@ -726,7 +763,6 @@ input[type=radio]{
 	h6,.accordion,.text3,.card{
 		display: none;
 	}
-
 }
 
 @media only screen and (max-width:1199px){
@@ -771,6 +807,7 @@ ul li a{
 }
 
 .logo_2 {
+
 	padding:5px;
 	width:30px;
 	height:30px;
@@ -780,7 +817,6 @@ ul li a{
 	width:90px;
 	height:60px;
 }
-
 
 @media(max-width:991px){
 	ul li{
@@ -801,5 +837,19 @@ ul li a{
 	.img-fluid{
 		display: none;
 	}
-
+	.subbut{
+		font-size: 15px;
+		width: 70%;
+	}
+	.but1,.but2,.but3,.but4{
+		width: auto;
+		font-size: 16px;
+		line-height: 30px;
+		padding: 3px;
+		height: auto;
+	}
+	.tabimg1,.tabimg2,.tabimg3,.tabimg4{
+		height: 17px;
+		width: 18px;
+	}
 }
